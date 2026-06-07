@@ -2,7 +2,7 @@ import telebot
 import json
 import os
 
-TOKEN = '8259562053:AAHu04lONMvvKHxQFoSUSgkFVzlX7p57BIM' # من @BotFather
+TOKEN = os.environ['TOKEN']
 ADMIN_ID = 7838442083 # ضع الـ ID حقك من @userinfobot
 BOOKS_FILE = 'books.json'
 
